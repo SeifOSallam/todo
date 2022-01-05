@@ -10,7 +10,7 @@ export class WebRequestService {
   readonly ROOT_URL;
 
   constructor(private http: HttpClient) {
-    this.ROOT_URL = 'http://backend-todo1.apps.eu45.prod.nextcle.com/';
+    this.ROOT_URL = '10.130.3.203:8080';
   }
 
   get(uri: string) {
