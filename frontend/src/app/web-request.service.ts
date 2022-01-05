@@ -10,7 +10,7 @@ export class WebRequestService {
   readonly ROOT_URL;
 
   constructor(private http: HttpClient) {
-    this.ROOT_URL = '10.130.3.203:8080';
+    this.ROOT_URL = 'http://10.130.3.203:8080';
   }
 
   get(uri: string) {
