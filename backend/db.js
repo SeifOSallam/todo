@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 module.exports = async () => {
     try {
         await mongoose.connect(
-            "mongodb://"+process.env.IPDB+":27017/"
+            "mongodb://10.128.5.250:27017/"
         );
         console.log("Connected to database.");
     } catch (error) {
