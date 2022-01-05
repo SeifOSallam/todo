@@ -1,7 +1,5 @@
 FROM node
 
-FROM mongo
-
 WORKDIR /app/backend
 
 COPY package*.json ./
